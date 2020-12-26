@@ -1,0 +1,66 @@
+body {
+  background-color: #ddd;
+}
+
+.card {
+  width: 400px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: blue;
+  color: white;
+  /* 1 ... dots*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.body {
+  padding: 0.5rem;
+}
+
+/* 2 Text Shadow*/
+h1 {
+  font-size: 5rem;
+  text-shadow: 0 0 10px red;
+}
+
+/*3 Background clip text*/
+h2 {
+  font-size: 5rem;
+  background-image: url("mx.jpg");
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/*4 The all property*/
+h3 {
+  font-size: 5rem;
+  background-image: url("mx.jpg");
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  all: initial;
+  font-size: 3rem;
+}
+
+/*5 Easy Pill Shaped Buttons*/
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+.pill {
+  border-radius: 9999px;
+}
+
+.ellipse {
+  border-radius: 50%;
+}
